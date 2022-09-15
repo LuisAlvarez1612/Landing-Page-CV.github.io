@@ -10,15 +10,15 @@ header {
 }
 
 .btn {
-    background-color: #4448c3;
+    background-color: aqua;
     border-radius: 11px;
-    border-style: outset;
-    color: whitesmoke;
+    border-style: double;
+    color: black;
     font-weight: bold;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 20px;
-    border-color: whitesmoke;
+    border-color: black;
     border-width: 7px;
 }
 
@@ -28,7 +28,7 @@ header {
     font-family: 'Heebo', sans-serif;
     font-weight: bold;
     position: absolute;
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
 }
 
@@ -58,8 +58,45 @@ h1{
 #row-somos{
     background-image: url('img/fondo2.png');
     background-size: cover;
-    height: 800px;
-    padding-top: 270px !important;
+    padding-top: 255px !important;
+    padding-bottom: 255px !important;
 }
 
+#row-somos img{
+    width: 450px;
+}
 
+p{
+    font-size: 22px;
+}
+
+#row-planes{
+    background-color: #494ac9;
+}
+
+#row-planes img{
+    width: 450px;
+}
+
+footer{
+    background-color: black;
+}
+
+footer p{
+    font-size: 15px;
+}
+footer img{
+    width: 30px;
+}
+
+@media(max-width:992px){
+    .navbar-nav{
+        background-color: #5080E5;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;    
+        padding-left: 20px;    
+    }
+}
+nav{
+    z-index: 100;
+}
